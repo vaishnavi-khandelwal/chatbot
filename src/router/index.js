@@ -18,6 +18,31 @@ Vue.use(VueRouter)
     path: '/forgot-password',
     name: 'forgot-password',
     component: () => import('../components/ForgotPassword.vue')
+  },
+  {
+    path: '/feedback',
+    name: 'feedback',
+    component: () => import('../components/FeedBack.vue')
+  },
+  {
+    path: '/donorlist',
+    name: 'donorlist',
+    component: () => import('../components/DonorList.vue')
+  },
+  {
+    path: '/requesterlist',
+    name: 'requesterlist',
+    component: () => import('../components/RequesterList.vue')
+  },
+  {
+    path: '/dailytransaction',
+    name: 'dailytransaction',
+    component: () => import('../components/DailyTransaction.vue')
+  },
+  {
+    path: '/volunteer',
+    name: 'volunteer',
+    component: () => import('../components/Volunteer.vue')
   }
 ]
 

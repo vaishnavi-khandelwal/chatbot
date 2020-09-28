@@ -5,12 +5,12 @@
 
             <div class="form-group">
                 <label>Username</label>
-                <input type="email" class="form-control form-control-lg" />
+                <input type="email" class="form-control form-control-lg" required>
             </div>
 
             <div class="form-group">
                 <label>Password</label>
-                <input type="password" class="form-control form-control-lg" />
+                <input type="password" class="form-control form-control-lg" required>
             </div>
 
             <button type="submit" class="btn btn-dark btn-lg btn-block">Login</button>
