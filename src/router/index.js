@@ -20,6 +20,11 @@ Vue.use(VueRouter)
     component: () => import('../components/ForgotPassword.vue')
   },
   {
+    path: '/resetpass',
+    name: 'resetpass',
+    component: () => import('../components/ResetPass.vue')
+  },
+  {
     path: '/feedback',
     name: 'feedback',
     component: () => import('../components/FeedBack.vue')
