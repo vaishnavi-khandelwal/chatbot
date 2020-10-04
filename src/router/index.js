@@ -48,6 +48,16 @@ Vue.use(VueRouter)
     path: '/volunteer',
     name: 'volunteer',
     component: () => import('../components/Volunteer.vue')
+  },
+  {
+    path: '/donor',
+    name: 'donor',
+    component: () => import('../components/Donor.vue')
+  },
+  {
+    path: '/requester',
+    name: 'requester',
+    component: () => import('../components/Requester.vue')
   }
 ]
 
